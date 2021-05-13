@@ -21,6 +21,7 @@ git clone https://github.com/Zxilly/UA2F.git package/UA2F
 
 #更新queue
 git clone https://github.com/openwrt/packages
+rm -rf package/libs/libnetfilter-queue
 cp -rf packages/libs/libnetfilter-queue package/libs/
 
 # 追加内核设置
